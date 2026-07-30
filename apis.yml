@@ -1,19 +1,50 @@
 aid: klaim
 name: Klaim
-description: Klaim is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Klaim (Klaim Kapital Technologies Limited / Klaim Holdings Limited) is an Abu Dhabi-founded,
+  UAE-based healthcare fintech that advances working capital against receivables. Healthcare providers,
+  real estate brokers and SMEs submit unpaid insurance claims or invoices, Klaim's AI evaluates and prices
+  the risk in real time, and Klaim advances up to 90% of face value within 24 hours, collecting only when
+  the payer or client settles. Products span Klaim Health (insurance claim advances plus AI denial
+  prediction), Klaim Flow (SME receivables purchasing with an escrow model), Klaim Estate (real estate
+  commission advances) and Klaim Eligible (insurance eligibility verification). Founded in December 2019
+  by Karim Dakki and Ahmad Ghafour, backed by Techstars, and operating across the GCC, North Africa and
+  Turkey. Klaim publishes no public developer portal, API documentation or machine-readable API
+  description at this time.
 url: https://raw.githubusercontent.com/api-evangelist/klaim/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://klaim.ai/logo-dark.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Healthcare
+- Insurance
+- Claims
+- Invoice Financing
+- Working Capital
+- Receivables
+- Embedded Finance
+- Real Estate
+- United Arab Emirates
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://klaim.ai/
+- type: TermsOfService
+  url: https://klaim.ai/terms/uae
+- type: PrivacyPolicy
+  url: https://klaim.ai/privacy/uae
+- type: LinkedIn
+  url: https://linkedin.com/company/klaim-ai/
+- type: DomainSecurity
+  url: security/klaim-domain-security.yml
+- type: LLMsTxt
+  url: llms/klaim-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
