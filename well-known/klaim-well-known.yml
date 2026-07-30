@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://klaim.ai/.well-known/*
+host: https://klaim.ai
+summary: >-
+  No /.well-known/ discovery documents are published on the klaim.ai host. Every
+  probed path returned 404. Recorded as an honest negative result — Klaim
+  operates no public API host and publishes no developer discovery surface.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+related:
+- path: /robots.txt
+  status: 200
+  note: >-
+    Explicitly allows GPTBot, ChatGPT-User and CCBot; disallows /api/, /private/,
+    /_next/ and /static/. The /api/ disallow refers to internal Next.js route
+    handlers, not a published public API.
+- path: /sitemap.xml
+  status: 200
+  note: 10 URLs — marketing, product and regional legal pages only.
+- path: /llms.txt
+  status: 404
+subdomains_probed:
+- {host: api.klaim.ai, resolves: false}
+- {host: docs.klaim.ai, resolves: false}
+- {host: developer.klaim.ai, resolves: false}
+- {host: developers.klaim.ai, resolves: false}
+- {host: app.klaim.ai, resolves: false}
+- {host: portal.klaim.ai, resolves: false}
+- {host: status.klaim.ai, resolves: false}
+- {host: trust.klaim.ai, resolves: false}
+- {host: sandbox.klaim.ai, resolves: false}
+- {host: blog.klaim.ai, resolves: false}
