@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Healthcare
 - Insurance
@@ -54,7 +54,7 @@ tags:
 - Working Capital
 - Receivables
 - Embedded Finance
-- Real-Estate
+- Real Estate
 - United Arab Emirates
 tags_raw:
 - Company
@@ -69,6 +69,8 @@ tags_raw:
 - Embedded Finance
 - Real Estate
 - United Arab Emirates
+- Financial-Services
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
