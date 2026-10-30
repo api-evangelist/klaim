@@ -64,26 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Klaim (Klaim Kapital Technologies Limited / Klaim Holdings Limited) is an Abu Dhabi-founded, UAE-based healthcare fintech that advances working capital against receivables. Healthcare providers, real estate brokers and SMEs submit unpaid insurance claims or invoices, Klaim's AI evaluates and prices the risk in real time, and Klaim advances up to 90% of face value within 24 hours, collecting only when the payer or client settles.
+Klaim (Klaim Kapital Technologies Limited / Klaim Holdings Limited) is an Abu Dhabi-founded, UAE-based healthcare fintech that advances working capital against receivables. Healthcare providers, real estate brokers and SMEs submit unpaid insurance claims or invoices, Klaim's AI evaluates and prices the risk in real time, and Klaim advances up to 90% of face value within 24 hours, collecting only when the payer or client settles. Products span Klaim Health (insurance claim advances plus AI denial prediction), Klaim Flow (SME receivables purchasing with an escrow model), Klaim Estate (real estate commission advances) and Klaim Eligible (insurance eligibility verification). Founded in December 2019 by Karim Dakki and Ahmad Ghafour, backed by Techstars, and operating across the GCC, North Africa and Turkey. Klaim publishes no public developer portal, API documentation or machine-readable API description at this time.
 
-Founded December 2019 by Karim Dakki (CEO) and Ahmad Ghafour. Backed by Techstars. Operates across the GCC, North Africa and Turkey.
+**Areas:** Company · Financial Services · Fintech · Healthcare · Insurance · Claims · Invoice Financing · Working Capital · Receivables · Embedded Finance · Real Estate · United Arab Emirates
 
-## Products
+## Klaim on APIs.io
 
-- **Klaim Health** — insurance claim advances for medical providers, plus AI denial prediction — https://klaim.ai/health
-- **Klaim Flow** — SME receivables purchasing (invoice financing + escrow) — https://klaim.ai/flow
-- **Klaim Estate** — real estate commission advances — https://klaim.ai/estate
-- **Klaim Eligible** — insurance eligibility verification for medical providers
+Everything profiled for Klaim is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/klaim/](https://apis.io/providers/klaim/)** — or go straight to one of the APIs or properties below.
 
-## API surface
+### Published properties
 
-Klaim publishes **no public developer portal, API documentation, API reference, OpenAPI description, SDKs, CLI, sandbox, changelog or status page**. No `api.` / `docs.` / `developer.` subdomain resolves, and no `/.well-known/` discovery document is served. The artifacts in this repo record that verified absence rather than asserting a developer surface that does not exist.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-- `apis.yml` — company profile and link properties
-- `security/klaim-domain-security.yml` — probed TLS/DNSSEC/SPF/DMARC posture
-- `well-known/klaim-well-known.yml` — probed `/.well-known/` surface (all 404, recorded)
-- `llms/klaim-llms.txt` — generated agent-readable company summary
+Authentication, trust centre, and vulnerability disclosure.
 
-Backed by: techstars — https://klaim.ai/
+- [Klaim Domain Security](https://apis.io/security/klaim/klaim-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://klaim.ai/)
+- [Terms of service](https://klaim.ai/terms/uae)
+- [Privacy policy](https://klaim.ai/privacy/uae)
+
+## API Evangelist rating
+
+**Kin Score 9.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/klaim/](https://apis.io/providers/klaim/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Klaim: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/klaim/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
